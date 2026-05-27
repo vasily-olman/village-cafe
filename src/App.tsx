@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 
 type MenuItem = [string, number];
 
@@ -162,9 +162,10 @@ export default function App() {
           ...section,
           items: section.items.map((item, j) => {
             if (j !== itemIndex) return item;
-            const updated: MenuItem = [...item] as MenuItem;
-            updated[fieldIndex as 0 | 1] = fieldIndex === 1 ? Number(value) : value;
-            return updated;
+            if (fieldIndex === 0) {
+              return [value, item[1]];
+            }
+            return [item[0], Number(value) || 0];
           }),
         };
       })
