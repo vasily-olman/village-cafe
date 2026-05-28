@@ -339,7 +339,7 @@ export default function App() {
             <h1>${escapeHtml(title)}</h1>
             <div class="subtitle">${escapeHtml(subtitle)}</div>
             <div class="grid">${sectionHtml}</div>
-            <div class="footer">Сделано с любовью ☀️ Хорошего дня и вкусных напитков!</div>
+            <div class="footer">Хорошего дня и вкусных напитков! ☀️</div>
           </main>
         </body>
       </html>
@@ -500,7 +500,7 @@ export default function App() {
           ))}
         </section>
 
-        <div className="footer">Сделано с любовью ☀️ Хорошего дня и вкусных напитков!</div>
+        <div className="footer">Хорошего дня и вкусных напитков! ☀️</div>
       </main>
     </div>
   );

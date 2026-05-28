@@ -138,8 +138,8 @@ Error generating stack: `+e.message+`
             <h1>${h(n)}</h1>
             <div class="subtitle">${h(i)}</div>
             <div class="grid">${e}</div>
-            <div class="footer">Сделано с любовью ☀️ Хорошего дня и вкусных напитков!</div>
+            <div class="footer">Хорошего дня и вкусных напитков! ☀️</div>
           </main>
         </body>
       </html>
-    `,r=window.open(``,`_blank`);if(!r){alert(`Браузер заблокировал новое окно. Разрешите всплывающие окна для этой страницы.`);return}r.document.open(),r.document.write(t),r.document.close()},children:`Открыть PDF-версию`})]})})]})}),(0,p.jsx)(`section`,{className:`grid`,children:o.map((e,n)=>(0,p.jsx)(y,{section:e,sectionIndex:n,updateTitle:d,updateItem:m,addItem:_,removeItem:b,isViewMode:t},n))}),(0,p.jsx)(`div`,{className:`footer`,children:`Сделано с любовью ☀️ Хорошего дня и вкусных напитков!`})]})]})}(0,d.createRoot)(document.getElementById(`root`)).render((0,p.jsx)(f.StrictMode,{children:(0,p.jsx)(b,{})}));
+    `,r=window.open(``,`_blank`);if(!r){alert(`Браузер заблокировал новое окно. Разрешите всплывающие окна для этой страницы.`);return}r.document.open(),r.document.write(t),r.document.close()},children:`Открыть PDF-версию`})]})})]})}),(0,p.jsx)(`section`,{className:`grid`,children:o.map((e,n)=>(0,p.jsx)(y,{section:e,sectionIndex:n,updateTitle:d,updateItem:m,addItem:_,removeItem:b,isViewMode:t},n))}),(0,p.jsx)(`div`,{className:`footer`,children:`Хорошего дня и вкусных напитков! ☀️`})]})]})}(0,d.createRoot)(document.getElementById(`root`)).render((0,p.jsx)(f.StrictMode,{children:(0,p.jsx)(b,{})}));
